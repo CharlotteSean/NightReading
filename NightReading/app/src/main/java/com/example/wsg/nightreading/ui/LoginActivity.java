@@ -114,10 +114,14 @@ public class LoginActivity extends BaseActivity {
                 startActivity(new Intent(this,RegisteredActivity.class));
                 break;
             case R.id.tv_forget:
+                startActivity(new Intent(this,ForgetPasswordActivity.class));
+
                 break;
             case R.id.btnLogin_qq:
+                Toast.makeText(LoginActivity.this, "QQ登录：" , Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btnLogin_weibo:
+                Toast.makeText(LoginActivity.this, "微博登录：", Toast.LENGTH_SHORT).show();
                 break;
         }
     }

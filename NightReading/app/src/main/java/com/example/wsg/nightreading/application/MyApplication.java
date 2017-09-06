@@ -23,7 +23,7 @@ public class MyApplication extends Application {
         CrashReport.initCrashReport(getApplicationContext(), StaticClass.BUGLY_APP_ID, true);
 
         //默认初始化
-        Bmob.initialize(this, "Your Application ID");
+        Bmob.initialize(this, StaticClass.BUGLY_APP_ID);
         // 注:自v3.5.2开始，数据sdk内部缝合了统计sdk，开发者无需额外集成，传渠道参数即可，不传默认没开启数据统计功能
         //Bmob.initialize(this, "Your Application ID","bmob");
     }

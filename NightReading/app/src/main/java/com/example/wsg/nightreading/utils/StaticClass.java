@@ -16,7 +16,7 @@ public class StaticClass {
     //判断程序是否已经登录
     public static final String SHARE_IS_LOGIN = "isLogin";
     //Bugly key
-    public static final String BUGLY_APP_ID = "5321f72058";
+    public static final String BUGLY_APP_ID = "6e64895f8c369ebb24a69a1aa3c193b0";
 
 
 }

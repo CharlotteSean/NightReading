@@ -19,7 +19,7 @@
     <application
         android:name=".application.MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -43,6 +43,13 @@
         <!--注册页面-->
         <activity android:name=".ui.RegisteredActivity"
             android:label="@string/text_registered"></activity>
+
+        <!--忘记密码页面-->
+        <activity android:name=".ui.ForgetPasswordActivity"
+            android:label="@string/text_forget_password"/>
+
+        <!--关于页面-->
+
 
 
     </application>
