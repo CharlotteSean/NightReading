@@ -49,6 +49,8 @@
             android:label="@string/text_forget_password"/>
 
         <!--关于页面-->
+        <activity android:name=".ui.AboutActivity"
+            android:label="@string/app_about"></activity>
 
 
 

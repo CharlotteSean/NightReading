@@ -36,4 +36,5 @@
     <string name="rb_douban">豆瓣影评</string>
     <string name="rb_friend">读友论坛</string>
     <string name="rb_user">个人中心</string>
+    <string name="app_about">关于</string>
 </resources>

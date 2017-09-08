@@ -5,8 +5,19 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.example.wsg.nightreading.R;
+import com.example.wsg.nightreading.entity.ZhiHu;
+import com.example.wsg.nightreading.utils.L;
+import com.kymjs.rxvolley.RxVolley;
+import com.kymjs.rxvolley.client.HttpCallback;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.List;
 
 /**
  * 项目名：NightReading
@@ -18,6 +29,9 @@ import com.example.wsg.nightreading.R;
  */
 
 public class ZhiHuFragment extends Fragment {
+
+    private ListView mlistview;
+    private List<ZhiHu> mlist;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_zhihu, null);
@@ -26,5 +40,33 @@ public class ZhiHuFragment extends Fragment {
     }
 
     private void findView(View view) {
+        mlistview=(ListView)view.findViewById(R.id.Zhihu_lv);
+
+        //解析接口
+        String url = "https://news-at.zhihu.com/api/4/news/latest";
+        RxVolley.get(url, new HttpCallback() {
+            @Override
+            public void onSuccess(String t) {
+                //Toast.makeText(getActivity(), t, Toast.LENGTH_SHORT).show();
+                L.i("wechat json:" + t);
+                parsingJson(t);
+            }
+        });
     }
+
+    private void parsingJson(String t) {
+        try {
+            JSONObject jsonObject = new JSONObject(t);
+            JSONArray jArray = jsonObject
+                    .getJSONArray("stories");
+
+        }
+        catch (JSONException e){
+            e.printStackTrace();
+
+        }
+
+    }
+
+
 }
