@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentActivity;
 import android.view.Window;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import com.example.wsg.nightreading.fragment.DoubanFragment;
 import com.example.wsg.nightreading.fragment.FriendFragment;
@@ -18,8 +19,15 @@ import com.example.wsg.nightreading.utils.StaticClass;
 public class MainActivity extends FragmentActivity {
 
     private RadioGroup mRadioGroup;
-    private Fragment[]mFragments={new ZhiHuFragment(),new DoubanFragment(),new FriendFragment(),new UserFragment()};
+    private  ZhiHuFragment zhiHuFragment=new ZhiHuFragment();
+    private DoubanFragment doubanFragment=new DoubanFragment();
+    private FriendFragment friendFragment=new FriendFragment();
+    private UserFragment userFragment=new UserFragment();
+    private Fragment[]mFragments={zhiHuFragment,doubanFragment,friendFragment,userFragment};
     private RadioButton mRadioButtonHome;
+
+    private boolean isFirst =true;
+    private long lastTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +62,9 @@ public class MainActivity extends FragmentActivity {
                         mFragment = mFragments[3];
                         break;
                 }
+
+
+
                 if(mFragments!=null){
                     getSupportFragmentManager().beginTransaction().replace(R.id.home_container,mFragment).commit();
                 }
@@ -63,4 +74,26 @@ public class MainActivity extends FragmentActivity {
         mRadioButtonHome.setChecked(true);
 
     }
+
+
+    @Override public void onBackPressed()
+    {
+        if(isFirst)
+        {
+            Toast.makeText(this,"再按一次退出",Toast.LENGTH_LONG).show();
+            lastTime=System.currentTimeMillis();
+            isFirst=false;
+        }else
+        {
+            if ((System.currentTimeMillis()-lastTime)<2000){
+                this.finish();
+            }else
+            {
+                Toast.makeText(this,"再按一次退出",Toast.LENGTH_LONG).show(); lastTime=System.currentTimeMillis();
+            }
+        }
+    }
+
+
+
 }

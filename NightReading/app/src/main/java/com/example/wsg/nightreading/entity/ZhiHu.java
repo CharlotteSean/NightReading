@@ -13,7 +13,7 @@ public class ZhiHu {
 
     private String title;
     private String images;
-    private int id;
+    private String  id;
 
     public String getTitle() {
         return title;
@@ -31,11 +31,11 @@ public class ZhiHu {
         this.images = images;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

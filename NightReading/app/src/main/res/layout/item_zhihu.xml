@@ -5,9 +5,12 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:textColor="@color/colorPrimary"
+        android:text="知乎日报"
+        android:textSize="20sp"
         android:id="@+id/item_zhihu_tv"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="100dp" />
 
 
 </LinearLayout>

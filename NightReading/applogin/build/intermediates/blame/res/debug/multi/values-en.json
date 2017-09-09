@@ -1,0 +1,3042 @@
+[
+    {
+        "outputFile": "G:\\git\\NightReading\\NightReading\\applogin\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 16,
+                    "endColumn": 16,
+                    "endOffset": 972
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 16,
+                        "endColumn": 16,
+                        "endOffset": 988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 977,
+                    "endLine": 36,
+                    "endColumn": 16,
+                    "endOffset": 2051
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 994,
+                        "endLine": 37,
+                        "endColumn": 16,
+                        "endOffset": 2087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2056,
+                    "endLine": 55,
+                    "endColumn": 16,
+                    "endOffset": 3230
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 1,
+                        "startOffset": 2093,
+                        "endLine": 57,
+                        "endColumn": 16,
+                        "endOffset": 3285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3235,
+                    "endLine": 62,
+                    "endColumn": 16,
+                    "endOffset": 3638
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 1,
+                        "startOffset": 3291,
+                        "endLine": 65,
+                        "endColumn": 16,
+                        "endOffset": 3700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3643,
+                    "endLine": 71,
+                    "endColumn": 16,
+                    "endOffset": 4046
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 1,
+                        "startOffset": 3706,
+                        "endLine": 75,
+                        "endColumn": 16,
+                        "endOffset": 4117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 4051,
+                    "endLine": 79,
+                    "endColumn": 16,
+                    "endOffset": 4553
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 1,
+                        "startOffset": 4123,
+                        "endLine": 84,
+                        "endColumn": 16,
+                        "endOffset": 4632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 4558,
+                    "endLine": 96,
+                    "endColumn": 16,
+                    "endOffset": 5499
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 1,
+                        "startOffset": 4638,
+                        "endLine": 102,
+                        "endColumn": 16,
+                        "endOffset": 5595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 5504,
+                    "endLine": 102,
+                    "endColumn": 16,
+                    "endOffset": 5838
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 1,
+                        "startOffset": 5601,
+                        "endLine": 109,
+                        "endColumn": 16,
+                        "endOffset": 5940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 5843,
+                    "endLine": 113,
+                    "endColumn": 16,
+                    "endOffset": 8347
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 1,
+                        "startOffset": 5946,
+                        "endLine": 121,
+                        "endColumn": 16,
+                        "endOffset": 8460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 8352,
+                    "endLine": 119,
+                    "endColumn": 16,
+                    "endOffset": 9224
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 1,
+                        "startOffset": 8466,
+                        "endLine": 128,
+                        "endColumn": 16,
+                        "endOffset": 9343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 9229,
+                    "endLine": 126,
+                    "endColumn": 16,
+                    "endOffset": 9534
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 1,
+                        "startOffset": 9349,
+                        "endLine": 136,
+                        "endColumn": 16,
+                        "endOffset": 9660
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 9539,
+                    "endLine": 137,
+                    "endColumn": 16,
+                    "endOffset": 10079
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 1,
+                        "startOffset": 9666,
+                        "endLine": 148,
+                        "endColumn": 16,
+                        "endOffset": 10216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 10084,
+                    "endLine": 160,
+                    "endColumn": 16,
+                    "endOffset": 11245
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 1,
+                        "startOffset": 10222,
+                        "endLine": 172,
+                        "endColumn": 16,
+                        "endOffset": 11405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 11250,
+                    "endLine": 173,
+                    "endColumn": 16,
+                    "endOffset": 12081
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 1,
+                        "startOffset": 11411,
+                        "endLine": 186,
+                        "endColumn": 16,
+                        "endOffset": 12254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 12086,
+                    "endLine": 176,
+                    "endColumn": 16,
+                    "endOffset": 12187
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 1,
+                        "startOffset": 12260,
+                        "endLine": 190,
+                        "endColumn": 16,
+                        "endOffset": 12363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 12192,
+                    "endLine": 189,
+                    "endColumn": 16,
+                    "endOffset": 12928
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 1,
+                        "startOffset": 12369,
+                        "endLine": 204,
+                        "endColumn": 16,
+                        "endOffset": 13117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 12933,
+                    "endLine": 192,
+                    "endColumn": 16,
+                    "endOffset": 13035
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 1,
+                        "startOffset": 13123,
+                        "endLine": 208,
+                        "endColumn": 16,
+                        "endOffset": 13227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 13040,
+                    "endLine": 199,
+                    "endColumn": 16,
+                    "endOffset": 13410
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 1,
+                        "startOffset": 13233,
+                        "endLine": 216,
+                        "endColumn": 16,
+                        "endOffset": 13609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 13415,
+                    "endLine": 229,
+                    "endColumn": 16,
+                    "endOffset": 15308
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 1,
+                        "startOffset": 13615,
+                        "endLine": 247,
+                        "endColumn": 16,
+                        "endOffset": 15537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 15313,
+                    "endLine": 242,
+                    "endColumn": 16,
+                    "endOffset": 16087
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 1,
+                        "startOffset": 15543,
+                        "endLine": 261,
+                        "endColumn": 16,
+                        "endOffset": 16329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 16092,
+                    "endLine": 251,
+                    "endColumn": 16,
+                    "endOffset": 17328
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 1,
+                        "startOffset": 16335,
+                        "endLine": 271,
+                        "endColumn": 16,
+                        "endOffset": 17579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 17333,
+                    "endLine": 258,
+                    "endColumn": 16,
+                    "endOffset": 17657
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 1,
+                        "startOffset": 17585,
+                        "endLine": 279,
+                        "endColumn": 16,
+                        "endOffset": 17915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 17662,
+                    "endLine": 261,
+                    "endColumn": 16,
+                    "endOffset": 17729
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 1,
+                        "startOffset": 17921,
+                        "endLine": 283,
+                        "endColumn": 16,
+                        "endOffset": 17990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 17734,
+                    "endLine": 264,
+                    "endColumn": 16,
+                    "endOffset": 17801
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 1,
+                        "startOffset": 17996,
+                        "endLine": 287,
+                        "endColumn": 16,
+                        "endOffset": 18065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 17806,
+                    "endLine": 267,
+                    "endColumn": 16,
+                    "endOffset": 17914
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 1,
+                        "startOffset": 18071,
+                        "endLine": 291,
+                        "endColumn": 16,
+                        "endOffset": 18181
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 17919,
+                    "endLine": 271,
+                    "endColumn": 19,
+                    "endOffset": 18079
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_country_arrays.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 1,
+                        "startOffset": 18187,
+                        "endLine": 296,
+                        "endColumn": 19,
+                        "endOffset": 18350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 18084,
+                    "endColumn": 46,
+                    "endOffset": 18126
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 4168,
+                        "endColumn": 46,
+                        "endOffset": 4210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 18131,
+                    "endColumn": 109,
+                    "endOffset": 18236
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1501,
+                        "endColumn": 109,
+                        "endOffset": 1606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 18241,
+                    "endColumn": 61,
+                    "endOffset": 18298
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 4216,
+                        "endColumn": 61,
+                        "endOffset": 4273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 18303,
+                    "endColumn": 52,
+                    "endOffset": 18351
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 1,
+                        "startOffset": 3449,
+                        "endColumn": 49,
+                        "endOffset": 3497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 18356,
+                    "endColumn": 50,
+                    "endOffset": 18402
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 4325,
+                        "endColumn": 50,
+                        "endOffset": 4371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 18407,
+                    "endColumn": 125,
+                    "endOffset": 18528
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 1,
+                        "startOffset": 5058,
+                        "endColumn": 122,
+                        "endOffset": 5179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 18533,
+                    "endColumn": 46,
+                    "endOffset": 18575
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 1,
+                        "startOffset": 2482,
+                        "endColumn": 43,
+                        "endOffset": 2524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 18580,
+                    "endColumn": 48,
+                    "endOffset": 18624
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 1,
+                        "startOffset": 3014,
+                        "endColumn": 45,
+                        "endOffset": 3058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 18629,
+                    "endColumn": 44,
+                    "endOffset": 18669
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 1,
+                        "startOffset": 2255,
+                        "endColumn": 41,
+                        "endOffset": 2295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 18674,
+                    "endColumn": 50,
+                    "endOffset": 18720
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 1,
+                        "startOffset": 2572,
+                        "endColumn": 47,
+                        "endOffset": 2618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 18725,
+                    "endColumn": 50,
+                    "endOffset": 18771
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 2069,
+                        "endColumn": 47,
+                        "endOffset": 2115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 18776,
+                    "endColumn": 69,
+                    "endOffset": 18841
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3982,
+                        "endColumn": 69,
+                        "endOffset": 4047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 18846,
+                    "endColumn": 131,
+                    "endOffset": 18973
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1612,
+                        "endColumn": 131,
+                        "endOffset": 1739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 18978,
+                    "endColumn": 46,
+                    "endOffset": 19020
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 1,
+                        "startOffset": 2924,
+                        "endColumn": 43,
+                        "endOffset": 2966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 19025,
+                    "endColumn": 54,
+                    "endOffset": 19075
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 1,
+                        "startOffset": 2721,
+                        "endColumn": 51,
+                        "endOffset": 2771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 19080,
+                    "endColumn": 53,
+                    "endOffset": 19129
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 1,
+                        "startOffset": 5232,
+                        "endColumn": 50,
+                        "endOffset": 5281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 19134,
+                    "endColumn": 49,
+                    "endOffset": 19179
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 1,
+                        "startOffset": 5184,
+                        "endColumn": 46,
+                        "endOffset": 5229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 19184,
+                    "endColumn": 115,
+                    "endOffset": 19295
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 359,
+                        "endColumn": 115,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 19300,
+                    "endColumn": 51,
+                    "endOffset": 19347
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 1,
+                        "startOffset": 2671,
+                        "endColumn": 48,
+                        "endOffset": 2718
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 19352,
+                    "endColumn": 52,
+                    "endOffset": 19400
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 1,
+                        "startOffset": 3105,
+                        "endColumn": 49,
+                        "endOffset": 3153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 19405,
+                    "endColumn": 115,
+                    "endOffset": 19516
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 703,
+                        "endColumn": 115,
+                        "endOffset": 814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 19521,
+                    "endColumn": 99,
+                    "endOffset": 19616
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 1,
+                        "startOffset": 3881,
+                        "endColumn": 96,
+                        "endOffset": 3976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 19621,
+                    "endColumn": 54,
+                    "endOffset": 19671
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 3600,
+                        "endColumn": 54,
+                        "endOffset": 3650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 19676,
+                    "endColumn": 55,
+                    "endOffset": 19727
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 1,
+                        "startOffset": 3653,
+                        "endColumn": 52,
+                        "endOffset": 3704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 19732,
+                    "endColumn": 57,
+                    "endOffset": 19785
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 1,
+                        "startOffset": 3762,
+                        "endColumn": 54,
+                        "endOffset": 3815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 19790,
+                    "endColumn": 61,
+                    "endOffset": 19847
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3821,
+                        "endColumn": 61,
+                        "endOffset": 3878
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 19852,
+                    "endColumn": 56,
+                    "endOffset": 19904
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 1,
+                        "startOffset": 3707,
+                        "endColumn": 53,
+                        "endOffset": 3759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 19909,
+                    "endColumn": 46,
+                    "endOffset": 19951
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 1,
+                        "startOffset": 2210,
+                        "endColumn": 43,
+                        "endOffset": 2252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 19956,
+                    "endColumn": 54,
+                    "endOffset": 20006
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 1,
+                        "startOffset": 3355,
+                        "endColumn": 51,
+                        "endOffset": 3405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 20011,
+                    "endColumn": 117,
+                    "endOffset": 20124
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1153,
+                        "endColumn": 117,
+                        "endOffset": 1266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 20129,
+                    "endColumn": 52,
+                    "endOffset": 20177
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 1,
+                        "startOffset": 3304,
+                        "endColumn": 49,
+                        "endOffset": 3352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 20182,
+                    "endColumn": 115,
+                    "endOffset": 20293
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1036,
+                        "endColumn": 115,
+                        "endOffset": 1147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 20298,
+                    "endColumn": 48,
+                    "endOffset": 20342
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 4053,
+                        "endColumn": 48,
+                        "endOffset": 4097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 20347,
+                    "endColumn": 112,
+                    "endOffset": 20455
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1387,
+                        "endColumn": 112,
+                        "endOffset": 1495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 20460,
+                    "endColumn": 63,
+                    "endOffset": 20519
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 4103,
+                        "endColumn": 63,
+                        "endOffset": 4162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 20524,
+                    "endColumn": 42,
+                    "endOffset": 20562
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 1,
+                        "startOffset": 3408,
+                        "endColumn": 39,
+                        "endOffset": 3446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 20567,
+                    "endColumn": 105,
+                    "endOffset": 20668
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 929,
+                        "endColumn": 105,
+                        "endOffset": 1030
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 20673,
+                    "endColumn": 51,
+                    "endOffset": 20720
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 1,
+                        "startOffset": 2621,
+                        "endColumn": 48,
+                        "endOffset": 2668
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 20725,
+                    "endColumn": 46,
+                    "endOffset": 20767
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 1,
+                        "startOffset": 4374,
+                        "endColumn": 43,
+                        "endOffset": 4416
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 20772,
+                    "endColumn": 48,
+                    "endOffset": 20816
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 1,
+                        "startOffset": 3257,
+                        "endColumn": 45,
+                        "endOffset": 3301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 20821,
+                    "endColumn": 68,
+                    "endOffset": 20885
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 1,
+                        "startOffset": 4719,
+                        "endColumn": 65,
+                        "endOffset": 4783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 20890,
+                    "endColumn": 67,
+                    "endOffset": 20953
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 1,
+                        "startOffset": 2416,
+                        "endColumn": 64,
+                        "endOffset": 2479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 20958,
+                    "endColumn": 52,
+                    "endOffset": 21006
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 1,
+                        "startOffset": 2873,
+                        "endColumn": 49,
+                        "endOffset": 2921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 21011,
+                    "endColumn": 115,
+                    "endOffset": 21122
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 586,
+                        "endColumn": 115,
+                        "endOffset": 697
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 21127,
+                    "endColumn": 44,
+                    "endOffset": 21167
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 4279,
+                        "endColumn": 44,
+                        "endOffset": 4319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 21172,
+                    "endColumn": 46,
+                    "endOffset": 21214
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3552,
+                        "endColumn": 46,
+                        "endOffset": 3594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 21219,
+                    "endColumn": 38,
+                    "endOffset": 21253
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 1,
+                        "startOffset": 2774,
+                        "endColumn": 35,
+                        "endOffset": 2808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 21258,
+                    "endColumn": 108,
+                    "endOffset": 21362
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 476,
+                        "endColumn": 108,
+                        "endOffset": 580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 21367,
+                    "endColumn": 44,
+                    "endOffset": 21407
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 1858,
+                        "endColumn": 41,
+                        "endOffset": 1898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 21412,
+                    "endColumn": 46,
+                    "endOffset": 21454
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 2165,
+                        "endColumn": 43,
+                        "endOffset": 2207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 21459,
+                    "endColumn": 68,
+                    "endOffset": 21523
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 1,
+                        "startOffset": 4652,
+                        "endColumn": 65,
+                        "endOffset": 4716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 21528,
+                    "endColumn": 69,
+                    "endOffset": 21593
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 1,
+                        "startOffset": 4584,
+                        "endColumn": 66,
+                        "endOffset": 4649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 21598,
+                    "endColumn": 66,
+                    "endOffset": 21660
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 1,
+                        "startOffset": 4786,
+                        "endColumn": 63,
+                        "endOffset": 4848
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 21665,
+                    "endColumn": 56,
+                    "endOffset": 21717
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 1,
+                        "startOffset": 4529,
+                        "endColumn": 53,
+                        "endOffset": 4581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 21722,
+                    "endColumn": 62,
+                    "endOffset": 21780
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 1,
+                        "startOffset": 4468,
+                        "endColumn": 59,
+                        "endOffset": 4526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 21785,
+                    "endColumn": 70,
+                    "endOffset": 21851
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 1,
+                        "startOffset": 4851,
+                        "endColumn": 67,
+                        "endOffset": 4917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 21856,
+                    "endColumn": 66,
+                    "endOffset": 21918
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 1,
+                        "startOffset": 4920,
+                        "endColumn": 63,
+                        "endOffset": 4982
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 21923,
+                    "endColumn": 59,
+                    "endOffset": 21978
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 1,
+                        "startOffset": 2298,
+                        "endColumn": 56,
+                        "endOffset": 2353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 21983,
+                    "endColumn": 53,
+                    "endOffset": 22032
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 1,
+                        "startOffset": 5356,
+                        "endColumn": 50,
+                        "endOffset": 5405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 22037,
+                    "endColumn": 65,
+                    "endOffset": 22098
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 1,
+                        "startOffset": 5639,
+                        "endColumn": 62,
+                        "endOffset": 5700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 22103,
+                    "endColumn": 107,
+                    "endOffset": 22206
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 1,
+                        "startOffset": 5408,
+                        "endColumn": 104,
+                        "endOffset": 5511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 22211,
+                    "endColumn": 68,
+                    "endOffset": 22275
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 1,
+                        "startOffset": 5514,
+                        "endColumn": 65,
+                        "endOffset": 5578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 22280,
+                    "endColumn": 59,
+                    "endOffset": 22335
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 1,
+                        "startOffset": 5581,
+                        "endColumn": 56,
+                        "endOffset": 5636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 22340,
+                    "endColumn": 53,
+                    "endOffset": 22389
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 1748,
+                        "endColumn": 50,
+                        "endOffset": 1797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 22394,
+                    "endColumn": 50,
+                    "endOffset": 22440
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 1,
+                        "startOffset": 5942,
+                        "endColumn": 47,
+                        "endOffset": 5988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 22445,
+                    "endColumn": 68,
+                    "endOffset": 22509
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 1,
+                        "startOffset": 6044,
+                        "endColumn": 65,
+                        "endOffset": 6108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 22514,
+                    "endColumn": 54,
+                    "endOffset": 22564
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 1,
+                        "startOffset": 5991,
+                        "endColumn": 51,
+                        "endOffset": 6041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 22569,
+                    "endColumn": 48,
+                    "endOffset": 22613
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 1,
+                        "startOffset": 6159,
+                        "endColumn": 45,
+                        "endOffset": 6203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 22618,
+                    "endColumn": 66,
+                    "endOffset": 22680
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 1,
+                        "startOffset": 8225,
+                        "endColumn": 63,
+                        "endOffset": 8287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 22685,
+                    "endColumn": 46,
+                    "endOffset": 22727
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 1,
+                        "startOffset": 6257,
+                        "endColumn": 43,
+                        "endOffset": 6299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 22732,
+                    "endColumn": 58,
+                    "endOffset": 22786
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 1,
+                        "startOffset": 8290,
+                        "endColumn": 55,
+                        "endOffset": 8344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 22791,
+                    "endColumn": 57,
+                    "endOffset": 22844
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 1,
+                        "startOffset": 6830,
+                        "endColumn": 54,
+                        "endOffset": 6883
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 22849,
+                    "endColumn": 61,
+                    "endOffset": 22906
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 1,
+                        "startOffset": 6662,
+                        "endColumn": 58,
+                        "endOffset": 6719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 22911,
+                    "endColumn": 69,
+                    "endOffset": 22976
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 1,
+                        "startOffset": 6944,
+                        "endColumn": 66,
+                        "endOffset": 7009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 22981,
+                    "endColumn": 53,
+                    "endOffset": 23030
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 1,
+                        "startOffset": 6722,
+                        "endColumn": 50,
+                        "endOffset": 6771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 23035,
+                    "endColumn": 59,
+                    "endOffset": 23090
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 1,
+                        "startOffset": 6886,
+                        "endColumn": 56,
+                        "endOffset": 6941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 23095,
+                    "endColumn": 57,
+                    "endOffset": 23148
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 1,
+                        "startOffset": 6774,
+                        "endColumn": 54,
+                        "endOffset": 6827
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 23153,
+                    "endColumn": 137,
+                    "endOffset": 23286
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 1,
+                        "startOffset": 7350,
+                        "endColumn": 134,
+                        "endOffset": 7483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 23291,
+                    "endColumn": 110,
+                    "endOffset": 23397
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 1,
+                        "startOffset": 7089,
+                        "endColumn": 107,
+                        "endOffset": 7195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 23402,
+                    "endColumn": 78,
+                    "endOffset": 23476
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 1,
+                        "startOffset": 7012,
+                        "endColumn": 75,
+                        "endOffset": 7086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 23481,
+                    "endColumn": 98,
+                    "endOffset": 23575
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 1,
+                        "startOffset": 7486,
+                        "endColumn": 95,
+                        "endOffset": 7580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 23580,
+                    "endColumn": 80,
+                    "endOffset": 23656
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 1,
+                        "startOffset": 7271,
+                        "endColumn": 77,
+                        "endOffset": 7347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 23661,
+                    "endColumn": 71,
+                    "endOffset": 23728
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 1,
+                        "startOffset": 8552,
+                        "endColumn": 68,
+                        "endOffset": 8619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 23733,
+                    "endColumn": 80,
+                    "endOffset": 23809
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 1,
+                        "startOffset": 8622,
+                        "endColumn": 77,
+                        "endOffset": 8698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 23814,
+                    "endColumn": 81,
+                    "endOffset": 23891
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 1,
+                        "startOffset": 8701,
+                        "endColumn": 78,
+                        "endOffset": 8778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 23896,
+                    "endColumn": 116,
+                    "endOffset": 24008
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 1,
+                        "startOffset": 8781,
+                        "endColumn": 113,
+                        "endOffset": 8893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 358,
+                    "startColumn": 4,
+                    "startOffset": 24013,
+                    "endColumn": 79,
+                    "endOffset": 24088
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 1,
+                        "startOffset": 8896,
+                        "endColumn": 76,
+                        "endOffset": 8971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 24093,
+                    "endColumn": 82,
+                    "endOffset": 24171
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 1,
+                        "startOffset": 8974,
+                        "endColumn": 79,
+                        "endOffset": 9052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 360,
+                    "startColumn": 4,
+                    "startOffset": 24176,
+                    "endColumn": 105,
+                    "endOffset": 24277
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 1,
+                        "startOffset": 9055,
+                        "endColumn": 102,
+                        "endOffset": 9156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 24282,
+                    "endColumn": 150,
+                    "endOffset": 24428
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 1,
+                        "startOffset": 9159,
+                        "endColumn": 147,
+                        "endOffset": 9305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 362,
+                    "startColumn": 4,
+                    "startOffset": 24433,
+                    "endColumn": 144,
+                    "endOffset": 24573
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 1,
+                        "startOffset": 9308,
+                        "endColumn": 141,
+                        "endOffset": 9448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 24578,
+                    "endColumn": 97,
+                    "endOffset": 24671
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 1,
+                        "startOffset": 9451,
+                        "endColumn": 94,
+                        "endOffset": 9544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 364,
+                    "startColumn": 4,
+                    "startOffset": 24676,
+                    "endColumn": 74,
+                    "endOffset": 24746
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 1,
+                        "startOffset": 7198,
+                        "endColumn": 71,
+                        "endOffset": 7268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 365,
+                    "startColumn": 4,
+                    "startOffset": 24751,
+                    "endColumn": 71,
+                    "endOffset": 24818
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 1,
+                        "startOffset": 7790,
+                        "endColumn": 68,
+                        "endOffset": 7857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 366,
+                    "startColumn": 4,
+                    "startOffset": 24823,
+                    "endColumn": 85,
+                    "endOffset": 24904
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 1,
+                        "startOffset": 8349,
+                        "endColumn": 82,
+                        "endOffset": 8430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 24909,
+                    "endColumn": 69,
+                    "endOffset": 24974
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 1,
+                        "startOffset": 7722,
+                        "endColumn": 66,
+                        "endOffset": 7787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 24979,
+                    "endColumn": 239,
+                    "endOffset": 25214
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 1,
+                        "startOffset": 7983,
+                        "endColumn": 236,
+                        "endOffset": 8218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 25219,
+                    "endColumn": 124,
+                    "endOffset": 25339
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 1,
+                        "startOffset": 7860,
+                        "endColumn": 121,
+                        "endOffset": 7980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 25344,
+                    "endColumn": 120,
+                    "endOffset": 25460
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 1,
+                        "startOffset": 8433,
+                        "endColumn": 117,
+                        "endOffset": 8549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 371,
+                    "startColumn": 4,
+                    "startOffset": 25465,
+                    "endColumn": 140,
+                    "endOffset": 25601
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 1,
+                        "startOffset": 7583,
+                        "endColumn": 137,
+                        "endOffset": 7719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 372,
+                    "startColumn": 4,
+                    "startOffset": 25606,
+                    "endColumn": 76,
+                    "endOffset": 25678
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 1,
+                        "startOffset": 6430,
+                        "endColumn": 73,
+                        "endOffset": 6502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 373,
+                    "startColumn": 4,
+                    "startOffset": 25683,
+                    "endColumn": 72,
+                    "endOffset": 25751
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 1,
+                        "startOffset": 6359,
+                        "endColumn": 69,
+                        "endOffset": 6427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 374,
+                    "startColumn": 4,
+                    "startOffset": 25756,
+                    "endColumn": 158,
+                    "endOffset": 25910
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 1,
+                        "startOffset": 6505,
+                        "endColumn": 155,
+                        "endOffset": 6659
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 375,
+                    "startColumn": 4,
+                    "startOffset": 25915,
+                    "endColumn": 56,
+                    "endOffset": 25967
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 1,
+                        "startOffset": 5724,
+                        "endColumn": 53,
+                        "endOffset": 5776
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 376,
+                    "startColumn": 4,
+                    "startOffset": 25972,
+                    "endColumn": 52,
+                    "endOffset": 26020
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 1,
+                        "startOffset": 6206,
+                        "endColumn": 49,
+                        "endOffset": 6254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 377,
+                    "startColumn": 4,
+                    "startOffset": 26025,
+                    "endColumn": 58,
+                    "endOffset": 26079
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 1,
+                        "startOffset": 6302,
+                        "endColumn": 55,
+                        "endOffset": 6356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 378,
+                    "startColumn": 4,
+                    "startOffset": 26084,
+                    "endColumn": 89,
+                    "endOffset": 26169
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 1,
+                        "startOffset": 5854,
+                        "endColumn": 86,
+                        "endOffset": 5939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 379,
+                    "startColumn": 4,
+                    "startOffset": 26174,
+                    "endColumn": 76,
+                    "endOffset": 26246
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 1,
+                        "startOffset": 5779,
+                        "endColumn": 73,
+                        "endOffset": 5851
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 380,
+                    "startColumn": 4,
+                    "startOffset": 26251,
+                    "endColumn": 49,
+                    "endOffset": 26296
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 1,
+                        "startOffset": 6111,
+                        "endColumn": 46,
+                        "endOffset": 6156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 381,
+                    "startColumn": 4,
+                    "startOffset": 26301,
+                    "endColumn": 61,
+                    "endOffset": 26358
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 1,
+                        "startOffset": 2356,
+                        "endColumn": 58,
+                        "endOffset": 2413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 382,
+                    "startColumn": 4,
+                    "startOffset": 26363,
+                    "endColumn": 63,
+                    "endOffset": 26422
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 1,
+                        "startOffset": 2811,
+                        "endColumn": 60,
+                        "endOffset": 2870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 383,
+                    "startColumn": 4,
+                    "startOffset": 26427,
+                    "endColumn": 52,
+                    "endOffset": 26475
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 1,
+                        "startOffset": 5284,
+                        "endColumn": 49,
+                        "endOffset": 5332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 384,
+                    "startColumn": 4,
+                    "startOffset": 26480,
+                    "endColumn": 59,
+                    "endOffset": 26535
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 1800,
+                        "endColumn": 56,
+                        "endOffset": 1855
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 26540,
+                    "endColumn": 46,
+                    "endOffset": 26582
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 1,
+                        "startOffset": 2969,
+                        "endColumn": 43,
+                        "endOffset": 3011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 386,
+                    "startColumn": 4,
+                    "startOffset": 26587,
+                    "endColumn": 48,
+                    "endOffset": 26631
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 1,
+                        "startOffset": 2118,
+                        "endColumn": 45,
+                        "endOffset": 2162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 387,
+                    "startColumn": 4,
+                    "startOffset": 26636,
+                    "endColumn": 74,
+                    "endOffset": 26706
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 1,
+                        "startOffset": 4985,
+                        "endColumn": 71,
+                        "endOffset": 5055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 388,
+                    "startColumn": 4,
+                    "startOffset": 26711,
+                    "endColumn": 45,
+                    "endOffset": 26752
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 1,
+                        "startOffset": 3061,
+                        "endColumn": 42,
+                        "endOffset": 3102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 389,
+                    "startColumn": 4,
+                    "startOffset": 26757,
+                    "endColumn": 59,
+                    "endOffset": 26812
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 127,
+                        "endColumn": 59,
+                        "endOffset": 182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 390,
+                    "startColumn": 4,
+                    "startOffset": 26817,
+                    "endColumn": 46,
+                    "endOffset": 26859
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 1901,
+                        "endColumn": 43,
+                        "endOffset": 1943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 391,
+                    "startColumn": 4,
+                    "startOffset": 26864,
+                    "endColumn": 109,
+                    "endOffset": 26969
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 248,
+                        "endColumn": 109,
+                        "endOffset": 353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 392,
+                    "startColumn": 4,
+                    "startOffset": 26974,
+                    "endColumn": 64,
+                    "endOffset": 27034
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 2006,
+                        "endColumn": 61,
+                        "endOffset": 2066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 393,
+                    "startColumn": 4,
+                    "startOffset": 27039,
+                    "endColumn": 61,
+                    "endOffset": 27096
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 1946,
+                        "endColumn": 58,
+                        "endOffset": 2003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 394,
+                    "startColumn": 4,
+                    "startOffset": 27101,
+                    "endColumn": 68,
+                    "endOffset": 27165
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 68,
+                        "endOffset": 121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 395,
+                    "startColumn": 4,
+                    "startOffset": 27170,
+                    "endColumn": 58,
+                    "endOffset": 27224
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 58,
+                        "endOffset": 242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 396,
+                    "startColumn": 4,
+                    "startOffset": 27229,
+                    "endColumn": 50,
+                    "endOffset": 27275
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 1,
+                        "startOffset": 3500,
+                        "endColumn": 47,
+                        "endOffset": 3546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 397,
+                    "startColumn": 4,
+                    "startOffset": 27280,
+                    "endColumn": 113,
+                    "endOffset": 27389
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1272,
+                        "endColumn": 113,
+                        "endOffset": 1381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 398,
+                    "startColumn": 4,
+                    "startOffset": 27394,
+                    "endColumn": 44,
+                    "endOffset": 27434
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 1,
+                        "startOffset": 3156,
+                        "endColumn": 41,
+                        "endOffset": 3196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 399,
+                    "startColumn": 4,
+                    "startOffset": 27439,
+                    "endColumn": 107,
+                    "endOffset": 27542
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 820,
+                        "endColumn": 107,
+                        "endOffset": 923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 400,
+                    "startColumn": 4,
+                    "startOffset": 27547,
+                    "endColumn": 59,
+                    "endOffset": 27602
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 1,
+                        "startOffset": 3199,
+                        "endColumn": 56,
+                        "endOffset": 3254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 401,
+                    "startColumn": 4,
+                    "startOffset": 27607,
+                    "endColumn": 46,
+                    "endOffset": 27649
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 1,
+                        "startOffset": 2527,
+                        "endColumn": 43,
+                        "endOffset": 2569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 402,
+                    "startColumn": 4,
+                    "startOffset": 27654,
+                    "endColumn": 48,
+                    "endOffset": 27698
+                },
+                "from": {
+                    "file": "G:\\git\\NightReading\\NightReading\\applogin\\src\\main\\res\\values-en\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 1,
+                        "startOffset": 4419,
+                        "endColumn": 45,
+                        "endOffset": 4463
+                    }
+                }
+            }
+        ]
+    }
+]

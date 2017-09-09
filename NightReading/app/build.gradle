@@ -5,14 +5,12 @@ android {
     buildToolsVersion "26.0.0"
     aaptOptions.cruncherEnabled = false
     aaptOptions.useNewCruncher = false
-
     dexOptions {
         javaMaxHeapSize "8g"
     }
-
     defaultConfig {
         applicationId "com.example.wsg.nightreading"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -25,20 +23,20 @@ android {
         }
     }
     useLibrary 'org.apache.http.legacy'
+    productFlavors {
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-
-    //Shimmer   文字动画效果
-    compile 'com.romainpiel.shimmer:library:1.4.0@aar'
-
+//    //Shimmer   文字动画效果
+//    compile 'com.romainpiel.shimmer:library:1.4.0@aar'
     //bugly
     dependencies {
         compile 'com.tencent.bugly:crashreport:latest.release'
@@ -46,11 +44,9 @@ dependencies {
     }
     //圆形头像
     compile 'de.hdodenhof:circleimageview:2.1.0'
-
     //butterknife
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
-
     //以下SDK开发者请根据需要自行选择
     //bmob-sdk：Bmob的android sdk包，包含了Bmob的数据存储、文件等服务，以下是最新的bmob-sdk:
     //3.5.5：请务必查看下面注释[1]
@@ -72,4 +68,6 @@ dependencies {
         exclude group: 'io.reactivex:rxjava'
         exclude group: 'com.squareup.okio'
     }
+    //万能适配器
+    compile 'com.lqr.adapter:library:1.0.2'
 }

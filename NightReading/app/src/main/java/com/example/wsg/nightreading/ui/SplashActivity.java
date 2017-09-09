@@ -11,8 +11,7 @@ import com.example.wsg.nightreading.MainActivity;
 import com.example.wsg.nightreading.R;
 import com.example.wsg.nightreading.utils.ShareUtils;
 import com.example.wsg.nightreading.utils.StaticClass;
-import com.romainpiel.shimmer.Shimmer;
-import com.romainpiel.shimmer.ShimmerTextView;
+
 
 /**
  * 项目名：NightReading
@@ -24,8 +23,6 @@ import com.romainpiel.shimmer.ShimmerTextView;
  */
 
 public class SplashActivity extends Activity {
-    private ShimmerTextView my;
-    private Shimmer shimmer;
     private Handler mHandler=new Handler(){
         @Override
         public void handleMessage(Message msg) {
@@ -70,10 +67,8 @@ public class SplashActivity extends Activity {
 
     //初始化视图
     private void initView() {
-        my=(ShimmerTextView)findViewById(R.id.shimmer_tv);
-        //开始动画
-        shimmer = new Shimmer();
-        shimmer.start(my);
+
+
     }
 
     //初始化数据
@@ -107,7 +102,7 @@ public class SplashActivity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-       //太占资源，需要销毁资源
-        shimmer.cancel();
+//       //太占资源，需要销毁资源
+//        shimmer.cancel();
     }
 }

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.wsg.nightreading">
-
-
-
     <!--bugly-->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -51,6 +48,17 @@
         <!--关于页面-->
         <activity android:name=".ui.AboutActivity"
             android:label="@string/app_about"></activity>
+
+        <!--浏览器页面-->
+        <activity android:name=".ui.WebViewActivity"></activity>
+
+        <!--分享页面-->
+        <activity android:name=".ui.ShareActivity"
+            android:label="@string/text_share"></activity>
+
+        <!--捐赠页面-->
+        <activity android:name=".ui.DonateActivity"
+            android:label="@string/text_donate"></activity>
 
 
 

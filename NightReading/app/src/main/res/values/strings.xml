@@ -33,8 +33,10 @@
     <string name="reset_successfully">密码修改成功</string>
     <string name="reset_failed">密码修改失败</string>
     <string name="rb_zhihu">知乎日报</string>
-    <string name="rb_douban">豆瓣影评</string>
-    <string name="rb_friend">读友论坛</string>
+    <string name="rb_douban">微信精选</string>
+    <string name="rb_friend">搞笑段子</string>
     <string name="rb_user">个人中心</string>
     <string name="app_about">关于</string>
+    <string name="text_share">分享</string>
+    <string name="text_donate">捐赠</string>
 </resources>

@@ -15,23 +15,22 @@ import java.util.List;
 /**
  * 项目名：NightReading
  * 包名：com.example.wsg.nightreading.adapter
- * 文件名：ZhihuAdapter
+ * 文件名：ZhiHuAdapter
  * 创建者：wsg
- * 创建时间：2017/9/8  20:34
- * 描述：TODO
+ * 创建时间：2017/9/9  14:00
+ * 描述：知乎日报
  */
 
-public class ZhihuAdapter extends BaseAdapter {
+public class ZhiHuAdapter extends BaseAdapter {
+    private List<ZhiHu> mDatas;
+    private Context mContext;
 
     private LayoutInflater mInflater;
-    private List<ZhiHu> mDatas;
-    private ZhiHu data;
 
-
-    public ZhihuAdapter(Context context, List<ZhiHu> datas) {
-
+    public ZhiHuAdapter(Context context, List<ZhiHu> zhiHus) {
         mInflater = LayoutInflater.from(context);
-        mDatas = datas;
+        mDatas=zhiHus;
+        mContext=context;
     }
 
     @Override
@@ -52,28 +51,29 @@ public class ZhihuAdapter extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
 
-        ViewHolder viewHolder = null;
-        if (view == null) {
-            viewHolder = new ViewHolder();
-            view = mInflater.inflate(R.layout.item_zhihu, null);
-            viewHolder.tv_title = (TextView) view.findViewById(R.id.item_zhihu_tv);
-            view.setTag(viewHolder);
-        } else {
-            viewHolder = (ViewHolder) view.getTag();
+        Holder holder = null;
+        if(view == null) {
+            holder = new Holder();
+            view = mInflater.inflate(R.layout.item_zhihu,viewGroup,false);
+
+            holder = new Holder();
+            holder.mTextView = (TextView)view.findViewById(R.id.item_zhihu_tv);
+
+            view.setTag(holder);
+        }else {
+            holder = (Holder)view.getTag();
         }
-        data = mDatas.get(i);
 
-        viewHolder.tv_title.setText(data.getTitle());
-
+        holder.mTextView.setText(mDatas.get(i).getTitle());
 
 
         return view;
     }
 
-    class ViewHolder {
-        private TextView tv_title;
+
+
+
+    private final class Holder {
+        TextView mTextView;
     }
 }
-
-
-
