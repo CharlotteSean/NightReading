@@ -10,8 +10,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.example.wsg.nightreading.R;
-import com.example.wsg.nightreading.adapter.ZhiHuAdapter;
-import com.example.wsg.nightreading.entity.ZhiHu;
+import com.example.wsg.nightreading.adapter.DuanZiAdapter;
+import com.example.wsg.nightreading.entity.DuanZi;
 import com.example.wsg.nightreading.ui.WebViewActivity;
 import com.example.wsg.nightreading.utils.L;
 import com.kymjs.rxvolley.RxVolley;
@@ -36,7 +36,7 @@ import java.util.List;
 public class ZhiHuFragment extends Fragment {
 
     private ListView mlistview;
-    private List<ZhiHu> mlist=new ArrayList<>();
+    private List<DuanZi> mlist=new ArrayList<>();
 
 
     @Override
@@ -50,13 +50,17 @@ public class ZhiHuFragment extends Fragment {
         mlistview=(ListView)view.findViewById(R.id.Zhihu_lv);
 
         //解析接口
-        String url = "https://news-at.zhihu.com/api/4/news/latest";
+        String url = "http://apicloud.mob.com/wx/article/search?key=20d8e016bad52&cid=5";
         RxVolley.get(url, new HttpCallback() {
             @Override
             public void onSuccess(String t) {
                 //Toast.makeText(getActivity(), t, Toast.LENGTH_SHORT).show();
-                L.i("wechat json:" + t);
-                parsingJson(t);
+//                L.i("wechat json:" + t);
+                try {
+                    parsingJson(t);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
             }
         });
 
@@ -69,55 +73,45 @@ public class ZhiHuFragment extends Fragment {
 
                 L.i("position:" + i);
                 Intent intent = new Intent(getActivity(), WebViewActivity.class);
-                intent.putExtra("title", mlist.get(i).getTitle());
-                intent.putExtra("url", "https://news-at.zhihu.com/api/4/news/"+mlist.get(i).getId());
+                intent.putExtra("title", mlist.get(i).getSubTitle());
+                intent.putExtra("url", mlist.get(i).getSourceUrl());
                 startActivity(intent);
 
             }
         });
 
 
+        mlist.clear();
+
+
 
     }
 
-    private void parsingJson(String t) {
-        try {
-            JSONObject jsonObject = new JSONObject(t);
-            JSONArray jArray = jsonObject
-                    .getJSONArray("stories");
-            for (int i = 0; i <jArray.length() ; i++) {
-                JSONObject jb1 = (JSONObject) jArray.get(i);
+    private void parsingJson(String t) throws JSONException {
+        JSONObject jsonObject = new JSONObject(t);
+        JSONObject object = jsonObject.getJSONObject("result");
+        JSONArray jArray = object.getJSONArray("list");
 
-                String title=jb1.getString("title");
-                String id=jb1.getString("id");
-                String images=jb1.getString("images");
+        for (int i = 1; i < jArray.length(); i++) {
+            JSONObject jb1 = (JSONObject) jArray.get(i);
 
+            String title = jb1.getString("subTitle");
+            String url = jb1.getString("sourceUrl");
 
-                ZhiHu z=new ZhiHu();
-                z.setTitle(title);
-                z.setId(id);
-                z.setImages(images);
-
-
-               mlist.add(z);
-
-
-
-                L.i(z.getTitle());
-                L.i(z.toString());
-
-                L.i(z.toString());
-
-            }
+            DuanZi d = new DuanZi();
+            d.setSubTitle(title);
+            d.setSourceUrl(url);
+//            L.i(title);
+//            L.i(url);
+//
+//
+//            L.i(d.toString());
+            mlist.add(d);
 
 
         }
-        catch (JSONException e){
-            e.printStackTrace();
 
-        }
-
-        ZhiHuAdapter adapter=new ZhiHuAdapter(getActivity(),mlist);
+        DuanZiAdapter adapter=new DuanZiAdapter(getActivity(),mlist);
         mlistview.setAdapter(adapter);
 
 

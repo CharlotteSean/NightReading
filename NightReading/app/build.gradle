@@ -35,8 +35,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-//    //Shimmer   文字动画效果
-//    compile 'com.romainpiel.shimmer:library:1.4.0@aar'
+    //    //Shimmer   文字动画效果
+    //    compile 'com.romainpiel.shimmer:library:1.4.0@aar'
     //bugly
     dependencies {
         compile 'com.tencent.bugly:crashreport:latest.release'
@@ -51,15 +51,10 @@ dependencies {
     //bmob-sdk：Bmob的android sdk包，包含了Bmob的数据存储、文件等服务，以下是最新的bmob-sdk:
     //3.5.5：请务必查看下面注释[1]
     //RxVolley
-    compile('com.kymjs.rxvolley:rxvolley:1.1.2') {
+    compile('com.kymjs.rxvolley:rxvolley:1.1.4') {
         exclude group: 'com.squareup.okhttp3', module: 'okhttp'
         exclude group: 'com.squareup.okio'
         exclude group: 'io.reactivex'
-    }
-    //RxVolley下载模块
-    compile('com.kymjs.rxvolley:okhttp:1.1.0') {
-        exclude group: 'com.squareup.okhttp3'
-        exclude group: 'com.squareup.okio'
     }
     //Bmob
     compile('cn.bmob.android:bmob-sdk:3.5.0') {
@@ -70,4 +65,5 @@ dependencies {
     }
     //万能适配器
     compile 'com.lqr.adapter:library:1.0.2'
+    compile files('libs/mta-sdk-1.6.2.jar')
 }

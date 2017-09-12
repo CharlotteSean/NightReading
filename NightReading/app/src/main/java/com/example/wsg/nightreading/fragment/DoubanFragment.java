@@ -64,7 +64,7 @@ public class DoubanFragment extends Fragment {
             @Override
             public void onSuccess(String t) {
                 //Toast.makeText(getActivity(), t, Toast.LENGTH_SHORT).show();
-                L.i("wechat json:" + t);
+//                L.i("wechat json:" + t);
                 try {
                     parsingJson(t);
                 } catch (JSONException e) {
@@ -72,6 +72,26 @@ public class DoubanFragment extends Fragment {
                 }
             }
         });
+
+
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                L.i("position:" + i);
+                Intent intent = new Intent(getActivity(), WebViewActivity.class);
+                intent.putExtra("title", list.get(i).getSubTitle());
+                intent.putExtra("url", list.get(i).getSourceUrl());
+                startActivity(intent);
+            }
+        });
+
+
+
+        list.clear();
+
+
+
+
     }
 
     private void parsingJson(String t) throws JSONException {
@@ -88,11 +108,11 @@ public class DoubanFragment extends Fragment {
             DuanZi d = new DuanZi();
             d.setSubTitle(title);
             d.setSourceUrl(url);
-            L.i(title);
-            L.i(url);
-
-
-            L.i(d.toString());
+//            L.i(title);
+//            L.i(url);
+//
+//
+//            L.i(d.toString());
             list.add(d);
 
 
@@ -104,16 +124,7 @@ public class DoubanFragment extends Fragment {
         lv.setAdapter(adapter);
 
 
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                L.i("position:" + i);
-                Intent intent = new Intent(getActivity(), WebViewActivity.class);
-                intent.putExtra("title", list.get(i).getSubTitle());
-                intent.putExtra("url", list.get(i).getSourceUrl());
-                startActivity(intent);
-            }
-        });
+
 
     }
 

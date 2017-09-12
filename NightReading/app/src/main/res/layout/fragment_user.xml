@@ -146,26 +146,7 @@
             android:background="@color/colorPrimary"/>
 
 
-        <LinearLayout
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_weight="1"
-                android:id="@+id/tv_night"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:text="夜间模式"
-                android:textSize="20dp"/>
 
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-
-
-        </LinearLayout>
 
 
 

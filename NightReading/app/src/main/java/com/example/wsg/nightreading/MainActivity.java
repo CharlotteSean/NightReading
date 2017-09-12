@@ -22,8 +22,7 @@ public class MainActivity extends FragmentActivity {
     private  ZhiHuFragment zhiHuFragment=new ZhiHuFragment();
     private DoubanFragment doubanFragment=new DoubanFragment();
     private FriendFragment friendFragment=new FriendFragment();
-    private UserFragment userFragment=new UserFragment();
-    private Fragment[]mFragments={zhiHuFragment,doubanFragment,friendFragment,userFragment};
+    private Fragment[]mFragments={zhiHuFragment,doubanFragment,friendFragment,UserFragment.getInstance()};
     private RadioButton mRadioButtonHome;
 
     private boolean isFirst =true;

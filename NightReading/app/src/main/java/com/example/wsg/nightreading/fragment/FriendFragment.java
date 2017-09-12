@@ -35,35 +35,35 @@ import java.util.List;
 
 public class FriendFragment extends Fragment {
 
-    private ListView listView;
-    private List<DuanZi> list=new ArrayList<>();
+    private ListView lv;
+    private List<DuanZi> list = new ArrayList<>();
+
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_friend, null);
+        View view = inflater.inflate(R.layout.fragment_douban, null);
         findView(view);
-        initData();
-
+        requestData();
         return view;
     }
 
-
-
     private void findView(View view) {
-        listView=(ListView)view.findViewById(R.id.Ff_lv);
-
+        lv=(ListView)view.findViewById(R.id.wc_lv);
     }
 
-    private void initData() {
+
+    private void requestData() {
 
         //解析接口
         String url = "http://apicloud.mob.com/wx/article/search?key=20d8e016bad52&cid=37";
+
+        //请求数据
         RxVolley.get(url, new HttpCallback() {
             @Override
             public void onSuccess(String t) {
                 //Toast.makeText(getActivity(), t, Toast.LENGTH_SHORT).show();
-                L.i("wechat json:" + t);
+//                L.i("wechat json:" + t);
                 try {
                     parsingJson(t);
                 } catch (JSONException e) {
@@ -73,32 +73,7 @@ public class FriendFragment extends Fragment {
         });
 
 
-
-
-//        //设置适配器
-//        LQRAdapterForAbsListView mAdapter=new LQRAdapterForAbsListView<DuanZi>(getActivity(),list,R.layout.item_duanzi) {
-//            @Override
-//            public void convert(LQRViewHolderForAbsListView helper, DuanZi item, int position) {
-//                helper.setText(R.id.item_duanzi_tv,list.get(position).getSubTitle());
-//            }
-//        };
-//        listView.setAdapter(mAdapter);
-//
-//        //添加点击事件
-//        mAdapter.setOnItemClickListener(new OnItemClickListener() {
-//            @Override
-//            public void onItemClick(LQRViewHolder helper, ViewGroup parent, View itemView, int position) {
-//                L.i("position:" + position);
-//                Intent intent = new Intent(getActivity(), WebViewActivity.class);
-//                intent.putExtra("title", list.get(position+1).getSubTitle());
-//                intent.putExtra("url", list.get(position+1).getSourceUrl());
-//                startActivity(intent);
-//            }
-//        });
-
-        //添加点击事件
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 L.i("position:" + i);
@@ -109,6 +84,13 @@ public class FriendFragment extends Fragment {
             }
         });
 
+
+
+        list.clear();
+
+
+
+
     }
 
     private void parsingJson(String t) throws JSONException {
@@ -116,32 +98,36 @@ public class FriendFragment extends Fragment {
         JSONObject object = jsonObject.getJSONObject("result");
         JSONArray jArray = object.getJSONArray("list");
 
-        for (int i = 0; i <jArray.length() ; i++) {
+        for (int i = 1; i < jArray.length(); i++) {
             JSONObject jb1 = (JSONObject) jArray.get(i);
 
-            String title=jb1.getString("subTitle");
-            String url=jb1.getString("sourceUrl");
+            String title = jb1.getString("subTitle");
+            String url = jb1.getString("sourceUrl");
 
-            DuanZi d=new DuanZi();
+            DuanZi d = new DuanZi();
             d.setSubTitle(title);
             d.setSourceUrl(url);
-
-
-            L.i(d.toString());
+//            L.i(title);
+//            L.i(url);
+//
+//
+//            L.i(d.toString());
             list.add(d);
-
-
-
 
 
         }
 
 
         //设置适配器
-        DuanZiAdapter adapter=new DuanZiAdapter(getActivity(),list);
-        listView.setAdapter(adapter);
+        DuanZiAdapter adapter = new DuanZiAdapter(getActivity(), list);
+        lv.setAdapter(adapter);
+
 
 
 
     }
+
+
+
+
 }

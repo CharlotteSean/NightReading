@@ -34,6 +34,17 @@ import de.hdodenhof.circleimageview.CircleImageView;
  */
 
 public class UserFragment extends Fragment {
+
+    private UserFragment(){
+
+    }
+    private static UserFragment i=new UserFragment();
+    //3.提供一个用于获取实例的方法，使用public static修饰
+    public static UserFragment getInstance(){
+        return i;
+    }
+
+
     @BindView(R.id.profile_image)
     CircleImageView profileImage;
     @BindView(R.id.edit_user)
@@ -48,7 +59,6 @@ public class UserFragment extends Fragment {
     EditText etDesc;
     @BindView(R.id.btn_update_ok)
     Button btnUpdateOk;
-    @BindView(R.id.tv_night)
     TextView tvNight;
     @BindView(R.id.tv_about)
     TextView tvAbout;
@@ -79,7 +89,7 @@ public class UserFragment extends Fragment {
         unbinder.unbind();
     }
 
-    @OnClick({R.id.profile_image, R.id.edit_user, R.id.btn_update_ok, R.id.tv_night, R.id.tv_about, R.id.btn_exit_user,R.id.tv_share,R.id.tv_donate})
+    @OnClick({R.id.profile_image, R.id.edit_user, R.id.btn_update_ok,  R.id.tv_about, R.id.btn_exit_user,R.id.tv_share,R.id.tv_donate})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.profile_image:
@@ -87,8 +97,6 @@ public class UserFragment extends Fragment {
             case R.id.edit_user:
                 break;
             case R.id.btn_update_ok:
-                break;
-            case R.id.tv_night:
                 break;
             case R.id.tv_about:
                 startActivity(new Intent(getActivity(), AboutActivity.class));

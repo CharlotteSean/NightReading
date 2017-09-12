@@ -3,6 +3,7 @@ package com.example.wsg.nightreading.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -17,69 +18,91 @@ import com.example.wsg.nightreading.R;
 import com.example.wsg.nightreading.base.BaseActivity;
 import com.example.wsg.nightreading.entity.MyUser;
 import com.example.wsg.nightreading.view.CustomDialog;
+import com.tencent.connect.common.Constants;
+import com.tencent.tauth.IUiListener;
+import com.tencent.tauth.Tencent;
+import com.tencent.tauth.UiError;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.SaveListener;
-import de.hdodenhof.circleimageview.CircleImageView;
-
-import static com.example.wsg.nightreading.R.id.et_name;
-import static com.example.wsg.nightreading.R.id.et_password;
 
 /**
  * 项目名：NightReading
  * 包名：com.example.wsg.nightreading.ui
  * 文件名：LoginActivity
  * 创建者：wsg
- * 创建时间：2017/9/5  16:50
- * 描述：登录页面
+ * 创建时间：2017/9/12  18:05
+ * 描述：重新 创建登录页面 解决butterknife无响应
  */
 
-public class LoginActivity extends BaseActivity {
-    @BindView(R.id.profile_image)
-    CircleImageView profileImage;
-    @BindView(et_name)
-    EditText etName;
-    @BindView(et_password)
-    EditText etPassword;
-    @BindView(R.id.keep_password)
-    CheckBox keepPassword;
-    @BindView(R.id.btnLogin)
-    Button btnLogin;
-    @BindView(R.id.btn_registered)
-    Button btnRegistered;
-    @BindView(R.id.tv_forget)
-    TextView tvForget;
-    @BindView(R.id.btnLogin_qq)
-    ImageView btnLoginQq;
-    @BindView(R.id.btnLogin_weibo)
-    ImageView btnLoginWeibo;
+public class LoginActivity extends BaseActivity implements View.OnClickListener {
 
 
+
+    private Tencent mTencent;
+    private String APP_ID = "1106410774";
+    private IUiListener loginListener;
+    private String SCOPE = "all";
+
+    //注册按钮
+    private Button btn_registered;
+    private EditText et_name;
+    private EditText et_password;
+    private Button btnLogin;
+    private CheckBox keep_password;
+
+    private TextView tv_forget;
     private CustomDialog dialog;
+
+    //QQ登录按钮
+    private ImageView iv_login;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        ButterKnife.bind(this);
+        initView();
+    }
+
+    //初始化控件
+    private void initView() {
+        btn_registered = (Button) findViewById(R.id.btn_registered);
+        btn_registered.setOnClickListener(this);
+        et_name = (EditText) findViewById(R.id.et_name);
+        et_password = (EditText) findViewById(R.id.et_password);
+        btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnLogin.setOnClickListener(this);
+        keep_password = (CheckBox) findViewById(R.id.keep_password);
+        tv_forget = (TextView) findViewById(R.id.tv_forget);
+        tv_forget.setOnClickListener(this);
+
+
+        iv_login=(ImageView)findViewById(R.id.btnLogi_qq);
+        iv_login.setOnClickListener(this);
+
 
         dialog = new CustomDialog(this, 100, 100, R.layout.dialog_loding, R.style.Theme_dialog, Gravity.CENTER,R.style.pop_anim_style);
         dialog.setCancelable(false);
 
+
     }
 
-    @OnClick({R.id.keep_password, R.id.btnLogin, R.id.btn_registered, R.id.tv_forget, R.id.btnLogin_qq, R.id.btnLogin_weibo})
-    public void onViewClicked(View view) {
+
+    @Override
+    public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.keep_password:
+            case R.id.tv_forget:
+                startActivity(new Intent(this, ForgetPasswordActivity.class));
+                break;
+            case R.id.btn_registered:
+                startActivity(new Intent(this, RegisteredActivity.class));
                 break;
             case R.id.btnLogin:
                 //1.获取输入框的值
-                String name = etName.getText().toString().trim();
-                String password = etPassword.getText().toString().trim();
+                String name = et_name.getText().toString().trim();
+                String password = et_password.getText().toString().trim();
                 //2.判断是否为空
                 if (!TextUtils.isEmpty(name) & !TextUtils.isEmpty(password)) {
                     dialog.show();
@@ -102,7 +125,7 @@ public class LoginActivity extends BaseActivity {
                                     Toast.makeText(LoginActivity.this, "请前往邮箱验证", Toast.LENGTH_SHORT).show();
                                 }
                             } else {
-                                Toast.makeText(LoginActivity.this, "登录失败：" + e.toString(), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginActivity.this, "登录失败：请检查登录信息或稍后重试", Toast.LENGTH_SHORT).show();
                             }
                         }
                     });
@@ -110,19 +133,70 @@ public class LoginActivity extends BaseActivity {
                     Toast.makeText(this, "输入框不能为空", Toast.LENGTH_SHORT).show();
                 }
                 break;
-            case R.id.btn_registered:
-                startActivity(new Intent(this,RegisteredActivity.class));
-                break;
-            case R.id.tv_forget:
-                startActivity(new Intent(this,ForgetPasswordActivity.class));
 
-                break;
-            case R.id.btnLogin_qq:
+            case R.id.btnLogi_qq:
                 Toast.makeText(LoginActivity.this, "QQ登录：" , Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.btnLogin_weibo:
-                Toast.makeText(LoginActivity.this, "微博登录：", Toast.LENGTH_SHORT).show();
+                initQqLogin();
+                mTencent.login(this, SCOPE, loginListener);
                 break;
         }
+
     }
+
+
+
+
+
+    //初始化QQ登录分享的需要的资源
+    private void initQqLogin() {
+        mTencent = Tencent.createInstance(APP_ID, this);
+        //创建QQ登录回调接口
+        loginListener = new IUiListener() {
+            @Override
+            public void onComplete(Object o) {
+                //登录成功后回调该方法
+                Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                finish();
+            }
+
+            @Override
+            public void onError(UiError uiError) {
+                //登录失败后回调该方法
+                Toast.makeText(LoginActivity.this, "登录失败", Toast.LENGTH_SHORT).show();
+                Log.e("LoginError:", uiError.toString());
+            }
+
+            @Override
+            public void onCancel() {
+                //取消登录后回调该方法
+                Toast.makeText(LoginActivity.this, "取消登录", Toast.LENGTH_SHORT).show();
+            }
+        };
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//  官方文档上面的是错误的
+//        if(requestCode == Constants.REQUEST_API) {
+//            if(resultCode == Constants.RESULT_LOGIN) {
+//                mTencent.handleLoginData(data, loginListener);
+//            }
+//  resultCode 是log出来的，官方文档里给的那个属性是没有的
+
+        if (requestCode == Constants.REQUEST_LOGIN) {
+            if (resultCode == -1) {
+                Tencent.onActivityResultData(requestCode, resultCode, data, loginListener);
+                Tencent.handleResultData(data, loginListener);
+            }
+        }
+    }
+
+
+
+
+    
+
+
 }

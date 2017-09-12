@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -13,7 +12,7 @@
 
         <TextView
             android:id="@+id/about_version"
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:text="版本："
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -25,7 +24,7 @@
             android:alpha="0.5"
             android:background="@color/colorPrimary"/>
         <TextView
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:text="作者：蓝莲花"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -37,7 +36,7 @@
             android:alpha="0.5"
             android:background="@color/colorPrimary"/>
         <TextView
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:text="如有建议，请联系QQ：1516961816"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -50,7 +49,7 @@
             android:background="@color/colorPrimary"/>
 
         <TextView
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:text="CSDN：http://my.csdn.net/qq_29375837"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -63,7 +62,7 @@
             android:alpha="0.5"
             android:background="@color/colorPrimary"/>
         <TextView
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:text="GitHub：https://github.com/stevenwsg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -77,12 +76,14 @@
             android:background="@color/colorPrimary"/>
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_my_love" />
 
 
-
-
-
-
-
-
-</LinearLayout>
+</RelativeLayout>

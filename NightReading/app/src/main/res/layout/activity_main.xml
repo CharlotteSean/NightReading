@@ -43,13 +43,14 @@
             android:text="@string/rb_douban"
             style="@style/RadioGroupButtonStyle"
             />
+
         <RadioButton
             android:id="@+id/radio_button_attention"
+            style="@style/RadioGroupButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/rb_friend"
-            style="@style/RadioGroupButtonStyle"
-            />
+            android:text="@string/rb_friend" />
+
         <RadioButton
             android:id="@+id/radio_button_profile"
             android:layout_width="wrap_content"
@@ -58,6 +59,7 @@
             style="@style/RadioGroupButtonStyle"
             />
     </RadioGroup>
+
 
 
 </LinearLayout>
