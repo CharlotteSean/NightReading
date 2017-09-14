@@ -23,6 +23,8 @@ import com.tencent.tauth.IUiListener;
 import com.tencent.tauth.Tencent;
 import com.tencent.tauth.UiError;
 
+import org.json.JSONObject;
+
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.SaveListener;
 
@@ -43,6 +45,8 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     private String APP_ID = "1106410774";
     private IUiListener loginListener;
     private String SCOPE = "all";
+    private IUiListener userInfoListener;
+
 
     //注册按钮
     private Button btn_registered;
@@ -135,6 +139,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 break;
 
             case R.id.btnLogi_qq:
+
                 Toast.makeText(LoginActivity.this, "QQ登录：" , Toast.LENGTH_SHORT).show();
                 initQqLogin();
                 mTencent.login(this, SCOPE, loginListener);
@@ -150,12 +155,28 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     //初始化QQ登录分享的需要的资源
     private void initQqLogin() {
         mTencent = Tencent.createInstance(APP_ID, this);
+
+
         //创建QQ登录回调接口
         loginListener = new IUiListener() {
             @Override
             public void onComplete(Object o) {
                 //登录成功后回调该方法
+//                Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+
+
+
+                //登录成功后调用的方法
+                JSONObject jo = (JSONObject) o;
                 Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+
+                //注册
+                final MyUser user = new MyUser();
+                user.setUsername("夜读读友");
+                user.setPassword("123456");
+                user.setAge(0);
+                user.setSex(true);
+                user.setDesc("这个人很懒，什么都没留下");
                 startActivity(new Intent(LoginActivity.this, MainActivity.class));
                 finish();
             }
@@ -173,6 +194,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 Toast.makeText(LoginActivity.this, "取消登录", Toast.LENGTH_SHORT).show();
             }
         };
+
     }
 
 
@@ -192,6 +214,21 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

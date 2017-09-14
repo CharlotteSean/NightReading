@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import com.example.wsg.nightreading.R;
 import com.example.wsg.nightreading.base.BaseActivity;
+import com.tencent.connect.share.QQShare;
 import com.tencent.tauth.IUiListener;
 import com.tencent.tauth.Tencent;
 import com.tencent.tauth.UiError;
@@ -31,7 +32,7 @@ public class ShareActivity  extends BaseActivity implements View.OnClickListener
     private ImageView share_wx_z;
     private Tencent mTencent;
     private String APP_ID = "1106410774";
-    private IUiListener loginListener;
+    private IUiListener shareListener;
     private String SCOPE = "all";
 
 
@@ -40,7 +41,7 @@ public class ShareActivity  extends BaseActivity implements View.OnClickListener
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_share);
-
+        initQqLogin();
         initView();
     }
 
@@ -51,36 +52,9 @@ public class ShareActivity  extends BaseActivity implements View.OnClickListener
         //QQ好友分享
         share_qq_f=(ImageView)findViewById(R.id.share_qq_f);
         share_qq_f.setOnClickListener(this);
-        //QQ空间分享
-        share_qq_z=(ImageView)findViewById(R.id.share_qq_z);
-        share_qq_z.setOnClickListener(this);
-        //微信好友分享
-        share_wx_f=(ImageView)findViewById(R.id.share_wx_f);
-        share_wx_f.setOnClickListener(this);
-        //微信朋友圈分享
-        share_wx_z=(ImageView)findViewById(R.id.share_qq_z);
-        share_wx_z.setOnClickListener(this);
+
     }
 
-
-    //qq分享的回调接口
-    IUiListener shareListener = new IUiListener() {
-        @Override
-        public void onComplete(Object o) {
-            //分享成功后回调
-            Toast.makeText(ShareActivity.this, "分享成功！", Toast.LENGTH_SHORT).show();
-        }
-
-        @Override
-        public void onError(UiError uiError) {
-            //分享失败后回调
-        }
-
-        @Override
-        public void onCancel() {
-            //取消分享后回调
-        }
-    };
 
     @Override
     public void onClick(View view) {
@@ -88,25 +62,21 @@ public class ShareActivity  extends BaseActivity implements View.OnClickListener
             case R.id.share_qq_f:
                 qqSharetoF();
                 break;
-            case R.id.share_qq_z:
-
-                break;
-            case R.id.share_wx_f:
-
-                break;
-            case R.id.share_wx_z:
-
-                break;
         }
 
     }
 
     private void qqSharetoF() {
-        Bundle bundle = new Bundle();
+        Bundle params = new Bundle();
         //这条分享消息被好友点击后的跳转URL。
         //分享的消息摘要，最长50个字
-        bundle.putString("key",share_et.getText().toString().trim() );
+        params.putString(QQShare.SHARE_TO_QQ_SUMMARY,share_et.getText().toString().trim() );
+
+        mTencent.shareToQQ(this, params, shareListener);
     }
+
+
+
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (null != mTencent)
@@ -114,4 +84,34 @@ public class ShareActivity  extends BaseActivity implements View.OnClickListener
     }
 
 
+
+    //初始化QQ登录分享的需要的资源
+    private void initQqLogin(){
+        mTencent =  Tencent.createInstance(APP_ID, this);
+        //创建QQ分享回调接口
+        //qq分享的回调接口
+         shareListener = new IUiListener() {
+            @Override
+            public void onComplete(Object o) {
+                //分享成功后回调
+                Toast.makeText(ShareActivity.this, "分享成功！", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onError(UiError uiError) {
+                //分享失败后回调
+            }
+
+            @Override
+            public void onCancel() {
+                //取消分享后回调
+            }
+        };
+
+
+    };
+
 }
+
+
+

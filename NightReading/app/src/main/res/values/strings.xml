@@ -39,7 +39,7 @@
     <string name="app_about">关于</string>
     <string name="text_share">分享</string>
     <string name="text_donate">捐赠</string>
-    <string name="text_donate_t">点击二维码捐赠</string>
+    <string name="text_donate_t">请截屏使用微信扫描二维码捐赠，谢谢</string>
     <string name="text_my_love">没有什么能够阻挡，你对自由的向往</string>
     <string name="text_introduce">夜读，仔细品味夜晚生活。 也许，你是一线城市的白领， 也许，你是二线城市的程序员， 也许，你是三线城市的普通职工， 无论你在哪里，无论你做什么工作，你都值得享有自己的夜晚阅读时间。 夜读，集成知乎日报，微信精选，搞笑段子，个人中心，让你在忙碌的一天歇息，了解大千世界的动态</string>
 </resources>
