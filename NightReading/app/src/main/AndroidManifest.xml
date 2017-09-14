@@ -54,9 +54,7 @@
         <!--浏览器页面-->
         <activity android:name=".ui.WebViewActivity"></activity>
 
-        <!--分享页面-->
-        <activity android:name=".ui.ShareActivity"
-            android:label="@string/text_share"></activity>
+
 
         <!--捐赠页面-->
         <activity android:name=".ui.DonateActivity"

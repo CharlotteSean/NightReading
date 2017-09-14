@@ -129,7 +129,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                                     Toast.makeText(LoginActivity.this, "请前往邮箱验证", Toast.LENGTH_SHORT).show();
                                 }
                             } else {
-                                Toast.makeText(LoginActivity.this, "登录失败：请检查登录信息或稍后重试", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginActivity.this, "登录失败：请检查登录信息或稍后重试"+e.toString(), Toast.LENGTH_SHORT).show();
                             }
                         }
                     });
@@ -140,7 +140,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 
             case R.id.btnLogi_qq:
 
-                Toast.makeText(LoginActivity.this, "QQ登录：" , Toast.LENGTH_SHORT).show();
+//                Toast.makeText(LoginActivity.this, "QQ登录：" , Toast.LENGTH_SHORT).show();
                 initQqLogin();
                 mTencent.login(this, SCOPE, loginListener);
                 break;
