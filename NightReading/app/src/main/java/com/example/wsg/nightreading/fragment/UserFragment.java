@@ -1,37 +1,16 @@
 package com.example.wsg.nightreading.fragment;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
-import android.text.TextUtils;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.wsg.nightreading.R;
-import com.example.wsg.nightreading.entity.MyUser;
 import com.example.wsg.nightreading.ui.AboutActivity;
 import com.example.wsg.nightreading.ui.DonateActivity;
-import com.example.wsg.nightreading.ui.LoginActivity;
-import com.example.wsg.nightreading.utils.L;
-import com.example.wsg.nightreading.utils.UtilTools;
-import com.example.wsg.nightreading.view.CustomDialog;
-
-import java.io.File;
-
-import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.UpdateListener;
-import de.hdodenhof.circleimageview.CircleImageView;
 
 
 
@@ -52,9 +31,6 @@ public class UserFragment extends Fragment implements View.OnClickListener {
 
     private TextView tv_about;
     private TextView tv_donate;
-
-    private UserFragment() {
-    }
 
     private static UserFragment i = new UserFragment();
     //3.提供一个用于获取实例的方法，使用public static修饰
